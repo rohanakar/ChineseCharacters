@@ -1,0 +1,19 @@
+HomeScreen
+	Component   -N/A
+	State		-N/A
+
+DisplayScreen 	
+	Component  
+	  - StillScreen 
+	  - AnimatedScreen
+	  - DictonaryScreen
+	  - ProgressBar
+	
+	State 
+		{ 
+		  dicitonaryMeaning{"String"},
+		  animatedImage(Image)
+		  filename("String")
+		  charactersDisplayed(Integer)
+		}
+	  

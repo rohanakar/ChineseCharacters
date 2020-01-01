@@ -1,0 +1,35 @@
+Module 1 [SMART CHARACTERS]
+1. Clustering (k-means)  -> Java
+2. TFIDF via Scrapping.  -> Java
+3. DataSet
+
+
+--> O/P List ==>  
+                 SMART CHARACTERS -> OrderedAlPhabets: TXT FILE [12,3,6,18,24,25.....]
+
+
+____________________________________________________________________________
+
+Module 2 (BackEnd) || GoLang...
+
+1. OrderedAlPhabets.txt || null
+2. API's (400,4000,all) GetContent(Lvl,) {
+							[
+								-> Dicitonary{"String"},
+								-> Animated(Image)
+								-> filename("String")
+							],
+							[
+								-> Dicitonary{"String"},
+								-> Animated(Image)
+								-> filename("String")
+							],
+						}.
+
+
+Highly Available . 
+
+
+
+____________________________________________________________________________
+Module 3 (FrontEnd) || React Native
