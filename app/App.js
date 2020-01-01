@@ -7,7 +7,9 @@ const navigator = createStackNavigator({
 }, {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      title: 'Chinese Characters'
+      title: 'Chinese Characters',
+      headerStyle: { backgroundColor: '#6200EE' },
+      headerTitleStyle: { color: 'white' },
     }
 });
 
