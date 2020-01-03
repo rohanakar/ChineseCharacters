@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/juggernaut/Documents/ChineseCharacters/app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/juggernaut/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/c603298cb6102ff12563aac6e0de7fa2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/juggernaut/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e935e053230029486c6eae77890389f/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
