@@ -80,8 +80,7 @@ const DisplayScreen = () => {
 
                             {/* ----------------  animated/dictonary/still Start ---------------- */}
                                 
-                                <TouchableOpacity style={{flex: 1,borderColor:'black',
-        borderWidth:2}}
+                                <TouchableOpacity style={{flex: 1}}
                                  onPress={
                                     () => {
                                         const showComponent = updateComponenet(state.component);
@@ -92,14 +91,11 @@ const DisplayScreen = () => {
                                     }
                                 }>
                                     {state.component == 'StillCharacter' ?
-                                         <StillCharacter data={data[state.index].fileName} style={{borderColor:'black',
-                                         borderWidth:2}} /> : null}
+                                         <StillCharacter data={data[state.index].fileName}  /> : null}
                                     {state.component == 'AnimatedCharacter' ?
-                                         <AnimatedCharacter data={data[state.index].character} style={{borderColor:'black',
-                                         borderWidth:2}}/> : null}
+                                         <AnimatedCharacter data={data[state.index].character} /> : null}
                                     {state.component == 'DictonaryMeaning' ?
-                                         <DictonaryMeaning data={data[state.index].dictonary} style={{borderColor:'black',
-                                         borderWidth:2}} /> : null}
+                                         <DictonaryMeaning data={data[state.index].dictonary} /> : null}
                                 </TouchableOpacity>
 
                             {/* ----------------  animated/dictonary/still End ---------------- */}
@@ -153,14 +149,10 @@ const styles = StyleSheet.create({
         width: width
     },
     icon: {
-        marginHorizontal: 0.02 * width,
-        borderColor:'black',
-        borderWidth:2,
-        
+        marginHorizontal: 0.02 * width,        
     },
     top: {
         alignItems: 'center',
-        backgroundColor: 'red',
         width: width,
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -170,7 +162,6 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        color: '#fff',
         fontSize: 30,
         fontWeight: 'bold'
     }
