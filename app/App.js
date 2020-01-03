@@ -1,11 +1,13 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import HomeScreen from './src/Screens/HomeScreen';
+import DisplayScreen from './src/Screens/DisplayScreen';
 
 const navigator = createStackNavigator({
-    Home: HomeScreen,
+    home: HomeScreen,
+    display: DisplayScreen
 }, {
-    initialRouteName: 'Home',
+    initialRouteName: 'home',
     defaultNavigationOptions: {
       title: 'Chinese Characters',
       headerStyle: { backgroundColor: '#6200EE' },

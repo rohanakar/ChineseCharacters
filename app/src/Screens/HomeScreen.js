@@ -5,21 +5,33 @@ const LVL1 = 'Easy';
 const LVL2 = 'Medium';
 const LVL3 = 'Hard';
 const {height, width} = Dimensions.get('window');
-const HomeScreen = (props) => {
-    console.log(props)
+const HomeScreen = ({navigation}) => {
+
     return (
         <View style={styles.levelGroup}>
-            <TouchableOpacity onPress = {() => {console.log(height)}}>
+            <TouchableOpacity onPress = {() => {
+                //callAPI - GetContent(LVL1)
+                navigation.navigate('display');
+                
+            }}>
                 <View style={styles.levelButtons}>
                     <Text style={styles.textStyle}>{LVL1}</Text>
                 </View>
             </TouchableOpacity>
-            <TouchableOpacity onPress = {() => {console.log(height)}}>
+            <TouchableOpacity onPress = {() => {
+                //callAPI - GetContent(LVL2)
+                navigation.navigate('display');
+                
+            }}>
                 <View style={styles.levelButtons}>
                     <Text style={styles.textStyle}>{LVL2}</Text>
                 </View>
             </TouchableOpacity>
-            <TouchableOpacity onPress = {() => {console.log(height)}}>
+            <TouchableOpacity onPress = {() => {
+                //callAPI - GetContent(LVL3)
+                navigation.navigate('display');
+                
+            }}>
             <View style={styles.levelButtons}>
                 <Text style={styles.textStyle}>{LVL3}</Text>
             </View>
